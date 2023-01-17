@@ -1,0 +1,9 @@
+Feature: Test login functionality
+
+  Scenario: Check login is succesfully with valid credentials
+    
+    Given: brower is open
+    And: user is login page
+    When: user enter username and password
+    Then: user is navigated to the home page
+
